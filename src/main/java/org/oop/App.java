@@ -1,6 +1,8 @@
 package org.oop;
 
-public class App 
+import org.oop.access_control.Car;
+
+public class App
 {
     public static void main( String[] args )
     {
@@ -13,5 +15,13 @@ public class App
         Case dukesCase = new Case("The sword is missing.");
         System.out.println(dukesCase.clues[0]);
 
+        System.out.println("---------ACCESS MODIFIERS--------");
+        Car.creatCar();
+
+        System.out.println("---------ENCAPSULATION-----------");
+        org.oop.encapsulation.Car.creatCar();
+
+        System.out.println("---------INHERITANCE-----------");
+        org.oop.inheritance.Car.creatCar();
     }
 }

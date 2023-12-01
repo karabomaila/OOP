@@ -1,6 +1,6 @@
 package org.oop;
 
-// A detective class with no access control modifies.
+// A detective class with no access control modifiers.
 class Detective {
     String name = " Duke";
     int age =  43;
