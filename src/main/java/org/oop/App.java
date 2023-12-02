@@ -1,6 +1,8 @@
 package org.oop;
 
 import org.oop.access_control.Car;
+import org.oop.override_overload.WaterPlane;
+import org.oop.polymorphism.Vehicle;
 
 public class App
 {
@@ -23,5 +25,11 @@ public class App
 
         System.out.println("---------INHERITANCE-----------");
         org.oop.inheritance.Car.creatCar();
+
+        System.out.println("---------OVERRIDE and OVERLOAD-----------");
+        WaterPlane.creatPlane();
+
+        System.out.println("---------POLYMORPHISM-----------");
+        Vehicle.createVehicles();
     }
 }

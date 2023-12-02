@@ -8,7 +8,7 @@ public class Car extends Automobile{
         name = "Fastest car in teh world";
         isDriving = true;
         color = "blue";
-        reach = 100;
+        reach = 500;
     }
 
     int getReach(){return reach;}
