@@ -17,7 +17,7 @@ public class Car {
         return unlockCode;
     }
 
-    // only subclasses can access this method
+    // only subclasses and classes in the same package can access this method
     protected boolean hasAirCondition(){
         return airCondition;
     }
