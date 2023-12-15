@@ -1,6 +1,6 @@
 package org.oop.casting;
 
-// casting objects along their inheritance hierarchy
+// casting objects along their inheritance hierarchy, downwards and upwards casting.
 
 public class Car {
     private String brand;
@@ -39,6 +39,7 @@ public class Car {
 
     @Override
     public boolean equals(Object object){
+        // the car object can access all the attributes and methods of another car object regardless of whether they are private or not.
         if (object instanceof Car){
             Car car = (Car) object;
             if (car.brand.equals(this.brand) && car.age == this.age && car.remainingFuel == this.remainingFuel) return true;
