@@ -1,5 +1,7 @@
 package org.oop.casting;
 
+// casting objects along their inheritance hierarchy
+
 public class Car {
     private String brand;
     private int age;
